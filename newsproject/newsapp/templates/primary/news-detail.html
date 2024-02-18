@@ -1,0 +1,17 @@
+{% extends '../base.html' %}
+{% load static %}
+
+
+{% block content %}
+<div class="news-detail">
+    <div class="container">
+        <a href="#" class="button-primary" onclick="javascript:history.back();return false;" class="btn_back">Back</a>
+        <h1 class="primary-title">SKI SEASON WITH K2</h1>
+        <div class="news-detail-img">
+            <img src="{% static './image/K2_.svg.png' %}" alt="test" style="width: 651px; height: 371px;">
+        </div>
+        <p class="news-detail-description">Description for K2 MINDBENDER <br> Size: 163, 170, 177 <br> Dimensions: 143 - 116 - 132 <br> Best for ski: freeride, powder <br> Rocker: powder rocker <br> Radius: 18 @ 170</p>
+        <p class="news-detail-date"><b>2024 SKI SEASON</b></p>
+    </div>
+</div>
+{% endblock %}

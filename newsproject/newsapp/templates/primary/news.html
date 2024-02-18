@@ -1,0 +1,79 @@
+{% extends '../base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section class="news">
+    <div class="container">
+        <h1 class="primary-title">Catalog</h1>
+        <div class="news-row">
+            <div class="news-card">
+                <div class="news-img">
+                    <img src="{% static './image/k2_1.webp' %}" alt="test">
+                </div>
+                <h3 class="news-title">K2 2024 SKI SEASON</h3>
+                <h3 class="news-date">K2 MINDBENDER 116 MEN'S SKIS 2024</h3>
+                <a href="" class="button-primary">Buy</a>
+            </div>
+            <div class="news-card">
+                <div class="news-img">
+                    <img src="{% static './image/k2_2.webp' %}" alt="test">
+                </div>
+                <h3 class="news-title">K2 2024 SKI SEASON</h3>
+                <h3 class="news-date">K2 MINDBENDER 108TI MEN'S SKIS 2024</h3>
+                <a href="" class="button-primary">Buy</a>
+            </div>
+            <div class="news-card">
+                <div class="news-img">
+                    <img src="{% static './image/k2_3.webp' %}" alt="test">
+                </div>
+                <h3 class="news-title">K2 2024 SKI SEASON</h3>
+                <h3 class="news-date">K2 MINDBENDER 106C MEN'S SKIS 2024</h3>
+                <a href="{% url 'news_detail_page' %}" class="button-primary">Buy</a>
+            </div>
+            <div class="news-card">
+                <div class="news-img">
+                    <img src="{% static './image/k2_4.webp' %}" alt="test">
+                </div>
+                <h3 class="news-title">K2 2024 SKI SEASON</h3>
+                <h3 class="news-date">K2 MINDBENDER 99TI MEN'S SKIS 2024</h3>
+                <a href="" class="button-primary">Buy</a>
+            </div>
+            <div class="news-card">
+                <div class="news-img">
+                    <img src="{% static './image/k2_5.webp' %}" alt="test">
+                </div>
+                <h3 class="news-title">K2 2024 SKI SEASON</h3>
+                <h3 class="news-date">K2 MINDBENDER 96C MEN'S SKIS 2024</h3>
+                <a href="" class="button-primary">Buy</a>
+            </div>
+            <div class="news-card">
+                <div class="news-img">
+                    <img src="{% static './image/k2_6.webp' %}" alt="test">
+                </div>
+                <h3 class="news-title">K2 2024 SKI SEASON</h3>
+                <h3 class="news-date">K2 MINDBENDER 90C MEN'S SKIS 2024</h3>
+                <a href="" class="button-primary">Buy</a>
+            </div>
+            <div class="news-card">
+                <div class="news-img">
+                    <img src="{% static './image/k2_7.webp' %}" alt="test">
+                </div>
+                <h3 class="news-title">K2 2024 SKI SEASON</h3>
+                <h3 class="news-date">K2 MINDBENDER 106C MEN'S SKIS 2024</h3>
+                <a href="" class="button-primary">Buy</a>
+            </div>
+            <div class="news-card">
+                <div class="news-img">
+                    <img src="{% static './image/k2_8.webp' %}" alt="test">
+                </div>
+                <h3 class="news-title">K2 2024 SKI SEASON</h3>
+                <h3 class="news-date">K2 DISRUPTION TI2 WC PISTON MEN'S SKIS 2024</h3>
+                <a href="" class="button-primary">Buy</a>
+            </div>  
+            <a href="#" class="button-primary" onclick="javascript:history.back();return false;" class="btn_back" style="margin-bottom: 25px; margin-top: 25px;">Back</a>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
